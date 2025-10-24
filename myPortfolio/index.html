@@ -1,536 +1,765 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Shivam Bhosale</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Resume Website Template Free Download" name="keywords">
-        <meta content="Resume Website Template Free Download" name="description">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Bhosale - Data Analyst & AI Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        <!-- Favicon -->
-        <link href="img/shivam3.png" rel="icon">
+        :root {
+            --primary: #00d4ff;
+            --secondary: #7b2ff7;
+            --dark: #0a0e27;
+            --darker: #050810;
+            --light: #ffffff;
+            --gray: #8892b0;
+        }
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--darker) 0%, var(--dark) 100%);
+            color: var(--light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/slick/slick.css" rel="stylesheet">
-        <link href="lib/slick/slick-theme.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        .background-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+        .floating-shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.15;
+            animation: float 20s infinite ease-in-out;
+        }
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="51">
-        <div class="wrapper">
-            <div class="sidebar">
-                <div class="sidebar-header">
-                    <img src="img/shivam2.jpeg" alt="Image">
-                </div>
-                <div class="sidebar-content">
-                    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand">Navigation</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarCollapse">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#header">Home<i class="fa fa-home"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about">About<i class="fa fa-address-card"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#education">Education<i class="fa fa-book"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#experience">Experience<i class="fa fa-star"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#projects">Projects<i class="fa fa-tasks"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#pub">Publications<i class="fa fa-file-archive"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#cer">Certification<i class="fa fa-certificate"></i></a>
-                                </li>
-                               
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Contact<i class="fa fa-envelope"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-                <div class="sidebar-footer">
-                    <a href="https://twitter.com/ProPy_10" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://github.com/ShivamBhosale" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/shivambhosale/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.instagram.com/shivambhosale_/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="content">
-                <!-- Header Start -->
-                <div class="header" id="header">
-                    <div class="content-inner">
-                        <p>I'm</p>
-                        <h1>Shivam Bhosale</h1>
-                        <h2></h2>
-                        <div class="typed-text">Master of Applied Computing Student, Self Taught React Web Developer, Data Science Aficionado, Budding Blockchain Developer</div>
-                    </div>
-                </div>
-                <!-- Header End -->
-                
-                <!-- Large Button Start -->
-                <div class="large-btn">
-                    <div class="content-inner">
-                        <a class="btn" href="Shivam Sunil Bhosale.pdf" target="_blank" download><i class="fa fa-download"></i>Resume</a>
-                        <a class="btn" href="https://teaandtech.hashnode.dev/" target="_blank"><i class="fa fa-blog"></i>My Blog</a>
-                    </div>
-                </div>
-                <!-- Large Button End -->
-                
-                <!-- About Start -->
-                <div class="about" id="about">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>About Me</h2>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-md-6 col-lg-5">
-                                <img src="img/shivam3.jpg" alt="Image">
-                            </div>
-                            <div class="col-md-6 col-lg-7">
-                                <p style="text-align:justify;">
-                                    I'm a passionate full-stack web developer and data science enthusiast, having graduated with a Master of Applied Computing degree from the University of Windsor. With a strong foundation in Computer Science Engineering from the SRM Institute of Science and Technology, I bring a unique skill set that bridges full-stack web development with data science and analysis.
-<br>
-<br>
-In my role as a fullstack web developer, I excel in HTML, CSS, JavaScript, NodeJS, and Django to craft visually stunning and intuitive user interfaces. I have extensive experience working with modern front-end frameworks, including React, to create responsive and interactive web applications.
-<br>
-<br>
-In addition to my dev skills, my academic and practical exposure in data science empowers me to dive deep into complex datasets, revealing meaningful insights. Proficient in data wrangling, cleaning, and visualization tools such as Python, R, SQL, and Tableau, I possess the ability to extract valuable information and identify trends to support informed decision-making. My expertise extends to statistical techniques and machine learning algorithms, enabling me to develop predictive models and conduct exploratory data analysis
-<br>
-<br>
-If you're looking for a full stack web developer and data science/analysis professional who blends technical proficiency with a passion for innovation, I'm eager to collaborate. I'm excited to contribute my skills and drive impactful solutions as I progress in my academic and professional journey.
-                                </p>
-                                <a class="btn" href="emailto:shivambhosale1511@gmail.com">Hire Me</a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="skills">
-                                    <div class="skill-name">
-                                        <p><b>Python</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p><b>JavaScript</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                        <div class="skill-name">
-                                        <p><b>React</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p><b>iOS Development</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                
-                                    <div class="skill-name">
-                                        <p><b>MySQL</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p><b>C++</b><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="skills">
-                                    <div class="skill-name">
-                                        <p><b>Pandas</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p><b>TensorFlow</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p><b>NumPy</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p><b>Flask</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p><b>Streamlit</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <div class="skill-name">
-                                        <p><b>Unity3D</b></p><p></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- About End -->
-                
-                <!-- Education Start -->
-                <div class="education" id="education">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>Education</h2>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="edu-col">
-                                    <span>Sept-2022 <i>to</i> Dec-2023</span>
-                                    <h3>Masters of Applied Computing</h3>
-                                    <p><b>University of Windsor</b></p>
-                                    <p>I have finished two semesters of my academic program with a cumulative percentage of 77% and I am currently seeking co-op internships to commence in September 2023. </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="edu-col">
-                                    <span>June-2017 <i>to</i> May-2021</span>
-                                    <h3>B.Tech Computer Science Engineering</h3>
-                                    <p><b>SRM Institute of Science and Technology</b></p>
-                                    <p style="text-align:justify;">Have secured a cumulative of 77.09%, had a wide range of core subjects like Artificial Intelligence and Database Management Systems. </p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- Education Start -->
-                
-                <!-- Experience Start -->
-                <div class="experience" id="experience">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>Experience</h2>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="exp-col">
-                                    <span>Jan-2021 <i>to</i> Feb-2021</span>
-                                    <h3>The Spark Foundation</h3>
-                                    <h5>Data Science and Business Analysis Intern</h5>
-                                    <p style="text-align:justify;">
-                                        <ul type="square">
-                                            <li>Conducted a wide range of analysis tasks on a weekly basis, encompassing diverse datasets and domains.</li>
-<li>Applied advanced Machine Learning algorithms to classify and predict outcomes from raw datasets.</li> 
-<li>Developed and implemented tailored algorithms to optimize performance and ensure accurate classification and
-predictions.</li>
-<li>Played a key role in delivering comprehensive and insightful analysis, positively impacting business outcomes.</li>
-<li>Utilized Microsoft Office tools, including Outlook, Excel, PowerPoint, SharePoint, and Word, to analyze data,
-create visually appealing presentations, and collaborate on project documentation.</li>
-</ul>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="exp-col">
-                                    <span>Jun-2019 <i>to</i> July-2019</span>
-                                    <h3>IIT Kanpur</h3>
-                                    <h5>Summer Intern</h5>
-                                    <p style="text-align:justify;">
-                                    <ul type="square">
-                                        <li>Spearheaded the development of a autonomous bot using reinforcement learning, playing a pivotal role in its completion.</li>
-                                        <li>
-                                            Utilized expertise in robotics and artificial intelligence to design and implement key components of the self-driving bot
-                                        </li>
-                                        <li>
-                                           Integrated a variety of IoT devices and sensors into the autonomous bot, enabling real-time data acquisition and analysis to drive intelligent decision-making
-                                        </li>
-                                    </ul>
-                                    </p>
-                                </div>
-                            </div>
-                          
-                           
-                        </div>
-                    </div>
-                </div>
-                <!-- Experience Start -->
-                
-                <!-- Projects Start -->
-                <div class="portfolio" id="projects">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>Projects</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <ul id="portfolio-flters">
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row portfolio-container">
-                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/plant23.png" class="img-fluid" alt="" style="border:5px solid black">
-                                        <a class="portfolio-title" href="https://github.com/ShivamBhosale/PlantLeafDiseaseDetection" target="_blank">Plant Leaf Disease Detection <span>Artificial Intelligence - Image Classification</span></a>
-                                    </figure>
-                                </div>
-                            </div>
+        .shape1 {
+            width: 400px;
+            height: 400px;
+            background: var(--primary);
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
+        }
 
-                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/Eth.png" class="img-fluid" alt="" style="border:5px solid black">
-                                        <a class="portfolio-title" href="https://github.com/ShivamBhosale/JerryTokenFarm" target="_blank">Decentralized Financial Application <span>Solidity Blockchain</span></a>
-                                    </figure>
-                                </div>
-                            </div>
+        .shape2 {
+            width: 300px;
+            height: 300px;
+            background: var(--secondary);
+            top: 60%;
+            right: 10%;
+            animation-delay: 5s;
+        }
 
-                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/mask-2.jpg" class="img-fluid" alt="mask" style="border:5px solid black">>
-                                       
-                                        <a class="portfolio-title" href="https://github.com/ShivamBhosale/MaskIdentifier" target="_blank">Face Mask Detector<span>Artificial Intelligence - Image Classification</span></a>
-                                    </figure>
-                                </div>
-                            </div>
+        .shape3 {
+            width: 350px;
+            height: 350px;
+            background: #ff006e;
+            bottom: 10%;
+            left: 50%;
+            animation-delay: 10s;
+        }
 
-                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/covid.png" class="img-fluid" alt="" style="border:5px solid black">
-                                        
-                                        <a class="portfolio-title" href="https://github.com/ShivamBhosale/Covid19_Analysis" target="_blank">Covid19 Data Analysis<span>Data Analysis</span></a>
-                                    </figure>
-                                </div>
-                            </div>
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(50px, -50px) scale(1.1); }
+            66% { transform: translate(-50px, 50px) scale(0.9); }
+        }
 
-                            <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/santa.png" class="img-fluid" alt="" style="border:5px solid black">
-                                        
-                                        <a class="portfolio-title" href="https://play.google.com/store/apps/details?id=com.BoringGameCompany.WorldsHardestGameSantaRun" target="_blank">Santa-Run Android Game<span>Android Game</span></a>
-                                    </figure>
-                                </div>
-                            </div>
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.5rem 5%;
+            background: rgba(10, 14, 39, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
 
-                            <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
-                                <div class="portfolio-wrap">
-                                    <figure>
-                                        <img src="img/data.png" class="img-fluid" alt="" style="border:5px solid black">
-                                        
-                                        <a class="portfolio-title" href="https://github.com/ShivamBhosale/Student_DatabaseManagement_WithPython" target="_blank">Student Database Management<span>Database in Python</span></a>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Projects End -->
-                 <!-- Review Start -->
-                <div class="portfolio" id="pub">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>Publications</h2>
-                        </div>
-                        <div class="row align-items-center review-slider">
-                            <div class="col-md-12">
-                                <div class="review-slider-item">
-                                    <div class="review-col">
-                                        <p style="font-size: 25px;">
-                                            Plant Leaf Disease Detection Using CNN
-                                        </p>
-                                        <p>
-                                            Presented the paper in eicicn-2021 conference and it has been published in a Scopus indexed Journals.
-                                            <b><a href="https://www.int-jecse.net/article/Detection+of+Diseases+in+Plant+Leaf+Using+CNN+Technique_1892/" target="_blank">Paper Link</a></b>
-                                        </p>
-                                            <hr>
-                                        <p style="font-size: 25px;">
-                                            Jerry Token Farm - A Blockchain Based Decentralized Finance Application
-                                        </p>
-                                        <p>
-                                           Published in International Research Journal of Engineering and Technology, Vol 8 Issue 5, 2021.
-                                           <b><a href="https://www.irjet.net/archives/V8/i5/IRJET-V8I5573.pdf" target="_blank">Paper Link</a></b>
-                                        </p>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-                  <!-- Review End -->
-                 <!-- Certification Start -->
-                <div class="service" id="cer">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>Certifications</h2>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="srv-col">
-                                    <i class="fa fa-book"></i>
-                                    <h3>IBM Data Science Professional Certification (Coursera)</h3>
-                                    <p style="text-align:justify;">In this Professional Certificate I developed and honed hands-on skills in DataScience and MachineLearning. It started with an orientation of Data Science and its Methodology, became familiar and used a variety of data science tools, learned Python and SQL, performed Data Visualization and Analysis, and created Machine Learning models. In the process I completed several labs and assignments on the project at the end to apply skills. Cloud including a Capstone and demonstrate my knowledge and skills.</p>
-                                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/RJ3JM4H8PPPV?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof" target="_blank"><u>View Certification</u></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="srv-col">
-                                    <i class="fa fa-laptop"></i>
-                                    <h3>DeepLearning.AI Tensorflow Developer Professional Certification (Coursera)</h3>
-                                    <p style="text-align:justify;">As part of this Professional Certificate program, I have learned: how to build and train neural networks using TensorFlow, how to improve network performance using convolutions as you train it to identify real-world images, how to teach machines to understand, analyze, and respond to human speech with natural language processing systems.</p>
-                                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/7STJB7AP7TJY?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof" target="_blank"><u>View Certification</u></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="srv-col">
-                                    <i class="fa fa-search"></i>
-                                    <h3>Building Web Applications in PHP (Coursera)</h3>
-                                    <p style="text-align:justify;">In this course I learned the implementation of PHP and it's functionality in HTML and CSS documents. Basic operations such as creating a server were covered in the curriculum of the course.</p>
-                                    <a href="https://www.coursera.org/account/accomplishments/verify/PC5D6CHV3R4N?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank"><u>View Certification</u></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="srv-col">
-                                    <i class="fa fa-envelope-open-text"></i>
-                                    <h3>Programming for Everybody (Coursera)</h3>
-                                    <p style="text-align:justify;">This course was a basic introduction about the python programming language and also covered some root level concepts such as classes and functions.</p>
-                                    <a href="https://www.coursera.org/account/accomplishments/verify/43U24YWXTS76?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank"><u>View Certification</u></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               <!-- Certification End-->
-               
-               
-            
-          
-                
-                <!-- Contact Start -->
-                <div class="contact" id="contact">
-                    <div class="content-inner">
-                        <div class="content-header">
-                            <h2>Contact</h2>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="contact-info">
-                                    <p><i class="fa fa-user"></i>Shivam Bhosale</p>
-                                    <p><i class="fa fa-envelope"></i><a href="mailto:shivambhosle21@gmail.com">shivambhosale1511@gmail.com</a></p>
-                                    
-                                
-                                    <div class="social">
-                                        <a class="btn" href="https://twitter.com/ProPy_10" target="_blank"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn" href="https://www.linkedin.com/in/shivambhosale/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="btn" href="https://www.instagram.com/pineapple__sandwich/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                        <a class="btn" href="https://github.com/ShivamBhosale" target="_blank"><i class="fab fa-github"></i></a>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form" method="POST">
-                                    <form data-netlify="true">
-                                        <div class="form-row">
-                                            <div class="form-group col-md-6">
-                                                <input type="text" class="form-control" placeholder="Your Name" />
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <input type="email" class="form-control" placeholder="Your Email" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Subject" />
-                                        </div>
-                                        <div class="form-group">
-                                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                                        </div>
-                                        <div><button class="btn" type="submit">Send Message</button></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Contact End -->
-                
-                <!-- Footer Start -->
-                <div class="footer">
-                    <div class="content-inner">
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <p>Created by: Shivam Bhosale</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>
-                                    
-<!-- Badge Code - Do Not Change The Code -->
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-<!-- Badge Code End Here -->
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-                                </p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Start -->
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: var(--gray);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            min-height: 100vh;
+            padding: 6rem 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero {
+            text-align: center;
+            padding-top: 8rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .hero .subtitle {
+            font-size: 1.8rem;
+            color: var(--gray);
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease-out 0.2s backwards;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--gray);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            animation: fadeInUp 1s ease-out 0.4s backwards;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            animation: fadeInUp 1s ease-out 0.6s backwards;
+        }
+
+        .btn {
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--light);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+        }
+
+        .btn-secondary {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: var(--dark);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-text p {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .skill-category {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+
+        .skill-category:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-10px);
+            border-color: var(--primary);
+        }
+
+        .skill-category h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .skill-tag {
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .experience-timeline {
+            position: relative;
+            padding-left: 3rem;
+            margin-top: 2rem;
+        }
+
+        .experience-timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background: linear-gradient(180deg, var(--primary), var(--secondary));
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+
+        .timeline-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateX(10px);
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -3.5rem;
+            top: 2rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 3px solid var(--dark);
+            box-shadow: 0 0 20px var(--primary);
+        }
+
+        .timeline-item h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-item .company {
+            color: var(--gray);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-item .date {
+            color: var(--secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .timeline-item ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .timeline-item li {
+            color: var(--gray);
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .timeline-item li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+        }
+
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .education-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2.5rem;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+
+        .education-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-10px);
+            border-color: var(--primary);
+        }
+
+        .education-card h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .education-card .school {
+            color: var(--light);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .education-card .date {
+            color: var(--gray);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .education-card .location {
+            color: var(--secondary);
+            font-size: 0.9rem;
+        }
+
+        .contact-content {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-content p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1.5rem 2rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+            color: var(--light);
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.8rem;
+            min-width: 150px;
+        }
+
+        .contact-link:hover {
+            background: rgba(0, 212, 255, 0.1);
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+
+        .contact-icon {
+            font-size: 2rem;
+        }
+
+        footer {
+            background: rgba(10, 14, 39, 0.8);
+            padding: 2rem;
+            text-align: center;
+            color: var(--gray);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+                    @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.3rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .education-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .experience-timeline {
+                padding-left: 2rem;
+            }
+
+            section {
+                padding: 4rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-animation">
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+    </div>
+
+    <nav>
+        <div class="container">
+            <div class="logo">SB</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Shivam Bhosale</h1>
+            <p class="subtitle">Data Analyst & AI Engineer</p>
+            <p>Transforming complex data into actionable insights with expertise in Python, SQL, Power BI, and machine learning. Specialized in predictive modeling, workflow automation, and data visualization to drive strategic business decisions.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="https://www.linkedin.com/in/shivambhosale" target="_blank" class="btn btn-secondary">View LinkedIn</a>
             </div>
         </div>
-        
-        <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up" style="color:white"></i></a>
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/slick/slick.min.js"></script>
-        <script src="lib/typed/typed.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an analytical and detail-oriented Data Analyst & AI Engineer with a Master's in Applied Computing from the University of Windsor. I specialize in transforming complex datasets into strategic insights that drive business value.</p>
+                    <p>My expertise spans the full data lifecycle—from data collection and cleaning to advanced analytics and visualization. I've successfully automated workflows to reduce manual effort by 40%, developed CNN models with 95% accuracy for disease detection, and built interactive dashboards that empower executive decision-making.</p>
+                    <p>With strong skills in Python, SQL, Power BI, and machine learning frameworks like TensorFlow and PyTorch, I bridge the gap between technical analysis and business strategy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C/C++</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Data Analysis & ML</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Neural Networks</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Data Mining</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>ML Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Hugging Face</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Data Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Database & Big Data</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">Hadoop</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">JIRA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <h3>Data Analyst</h3>
+                    <p class="company">MJR Capital Services Inc. - Mississauga, Canada</p>
+                    <p class="date">March 2025 — Present</p>
+                    <ul>
+                        <li>Conducted in-depth financial and operational data analysis using Python, Pandas, NumPy, and SQL, transforming raw data into actionable insights for strategic decisions</li>
+                        <li>Automated recurring workflows and data transfers through Python scripts and Power Automate, reducing manual reporting time by 40%</li>
+                        <li>Built and maintained interactive Power BI and Excel dashboards combining multiple datasets to track project budgets, expenditures, and performance KPIs</li>
+                        <li>Monitored cost controls and financial transactions, ensuring project expenditures aligned with budgets and business objectives</li>
+                        <li>Collaborated with cross-functional teams to analyze business trends, forecast revenues and expenses, and produce executive-level reports</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>AI Engineer</h3>
+                    <p class="company">University of Windsor - Windsor, Canada</p>
+                    <p class="date">September 2023 — April 2024</p>
+                    <ul>
+                        <li>Collaborated with Agriculture and Agri-Food Canada researchers to refine image processing and predictive modeling algorithms, improving early-stage disease detection accuracy by 15%</li>
+                        <li>Trained a CNN model on 35,000+ images, achieving 95% accuracy in plant disease identification, enhancing agricultural productivity</li>
+                        <li>Built and deployed a Django-based web application to serve AI insights securely and at scale</li>
+                        <li>Conducted data documentation and results reporting for stakeholders, improving communication between technical and non-technical teams</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Data Science and Business Analytics Intern</h3>
+                    <p class="company">The Spark Foundation - Mumbai, India</p>
+                    <p class="date">January 2021 — February 2021</p>
+                    <ul>
+                        <li>Processed 10,000+ financial and operational records using Python, Pandas, and SQL to enhance data quality for predictive modeling</li>
+                        <li>Designed and optimized machine learning models (TensorFlow, Keras, XGBoost) to forecast customer transactions, improving classification accuracy by 18%</li>
+                        <li>Conducted data validation and anomaly detection, improving the integrity of business metrics used for decision-making</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>Master in Applied Computing</h3>
+                    <p class="school">University of Windsor</p>
+                    <p class="date">September 2022 — April 2024</p>
+                    <p class="location">Windsor, Canada</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>Bachelor in Computer Science Engineering</h3>
+                    <p class="school">SRM Institute of Science and Technology</p>
+                    <p class="date">June 2017 — May 2021</p>
+                    <p class="location">Chennai, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always open to discussing new opportunities, collaborations, or just connecting with fellow data enthusiasts. Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="mailto:shivambhosale909@gmail.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shivambhosale" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Shivam Bhosale. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.skill-category, .timeline-item, .education-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Active nav link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            document.querySelectorAll('section').forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('nav a').forEach(link => {
+                link.style.color = 'var(--gray)';
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.style.color = 'var(--primary)';
+                }
+            });
+        });
+    </script>
+</body>
 </html>
