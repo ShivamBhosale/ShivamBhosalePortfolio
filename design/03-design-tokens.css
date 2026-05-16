@@ -1,0 +1,62 @@
+/* ─────────────────────────────────────────────
+   Design tokens — Portfolio (Data Brief)
+   Drop this into your stylesheet OR @import it.
+───────────────────────────────────────────── */
+
+:root {
+  /* Paper / surfaces */
+  --paper:   #f1ece2;
+  --paper-2: #e7e1d4;
+  --paper-3: #dcd5c5;
+
+  /* Ink / text */
+  --ink:     #141414;
+  --ink-2:   #2c2c2c;
+  --muted:   #6b6760;
+  --muted-2: #9c968b;
+
+  /* Rules / borders */
+  --rule:    #14141422;
+  --rule-2:  #14141411;
+
+  /* Accent (single editorial color — default amber) */
+  --accent:      oklch(60% 0.14 65);
+  --accent-soft: oklch(60% 0.14 65 / 0.14);
+
+  /* Semantic */
+  --pos: #246f43;
+  --neg: oklch(60% 0.14 65);
+
+  /* Type stack */
+  --serif: 'Instrument Serif', 'Times New Roman', serif;
+  --sans:  'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono:  'JetBrains Mono', ui-monospace, monospace;
+
+  /* Layout */
+  --max:    1320px;
+  --gutter: clamp(20px, 4vw, 56px);
+}
+
+[data-theme="dark"] {
+  --paper:   #0f0f10;
+  --paper-2: #17171a;
+  --paper-3: #1f1f23;
+  --ink:     #efeae0;
+  --ink-2:   #d5cfc1;
+  --muted:   #8b867c;
+  --muted-2: #5a554d;
+  --rule:    #ffffff1f;
+  --rule-2:  #ffffff10;
+  --accent:      oklch(74% 0.14 65);
+  --accent-soft: oklch(74% 0.14 65 / 0.18);
+  --pos:     #5ec288;
+  --neg:     oklch(74% 0.14 65);
+}
+
+/* ─── Optional accent presets ─── */
+/*   To change accent: set these CSS vars or edit --accent above   */
+/*   amber   : oklch(60% 0.14 65)                                  */
+/*   crimson : oklch(53% 0.18 28)                                  */
+/*   sage    : oklch(45% 0.12 145)                                 */
+/*   azure   : oklch(50% 0.14 250)                                 */
+/*   mono    : oklch(20% 0 0)                                      */

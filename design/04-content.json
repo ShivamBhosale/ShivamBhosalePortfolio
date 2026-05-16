@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "name": "Shivam Bhosale",
+    "title": "Data Analyst & AI Engineer",
+    "location": "Toronto, ON, Canada",
+    "lat": "43.65°N",
+    "lon": "79.38°W",
+    "status": "OPEN",
+    "yearsExperience": "3+",
+    "currentRole": "MJR Capital Services",
+    "email": "shivambhosale909@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/shivambhosale",
+    "github": "https://github.com/ShivamBhosale",
+    "githubHandle": "@ShivamBhosale",
+    "publicRepos": 124
+  },
+
+  "hero": {
+    "eyebrow": ["Data Analyst · AI Engineer", "3+ YRS BUILDING"],
+    "headline": [
+      "Turning *raw data*",
+      "into *decisions*,",
+      "decisions into *systems*"
+    ],
+    "description": "I build across the full analytics stack — **SQL & Python pipelines**, **Power BI dashboards**, **LLM agents**, **financial screeners**, and **locally-run AI systems**. Currently a Data Analyst at MJR Capital shipping ML to production. Side hours go to agentic AI, reliability-first LLM pipelines, and a few too many side projects.",
+    "axiom": "Good decisions start with clean data."
+  },
+
+  "dashboard": {
+    "title": "SB / OPS REPORT",
+    "subtitle": "personal analytics",
+    "cells": [
+      { "label": "Experience",     "value": "3+", "unit": "YRS", "sub": "Since Sep 2022 · grad school onward" },
+      { "label": "Public Repos",   "value": "124", "sub": "▲ 18 last 90 days", "subClass": "pos" },
+      { "label": "Commit Activity · 12 wks", "kind": "miniBars", "data": [4, 7, 5, 9, 12, 6, 14, 11, 16, 9, 13, 18], "sub": "peak · Wk 47" },
+      { "label": "Stack Mix",      "kind": "donut", "segments": [42, 28, 18], "sub": "Python 42% · AI 28% · BI 18%" }
+    ],
+    "foot": ["MODELS · shipped", "CCY · CAD", "UTC · {clock}"]
+  },
+
+  "ticker": [
+    ["PYTHON",             "42%",        "pos"],
+    ["SQL",                "+9%",        "pos"],
+    ["CLAUDE API",         "live",       "pos"],
+    ["REPOS",              "124",        ""],
+    ["MODELS / PROD",      "4",          "pos"],
+    ["AAFC",               "95%",        "pos"],
+    ["DASHBOARDS · MJR",   "∞",          ""],
+    ["STONKS.CA",          "shipped",    "pos"],
+    ["HONEY BADGER",       "local",      ""],
+    ["RAG · FAISS",        "on",         "pos"],
+    ["LODESTAR",           "WIP",        "neg"],
+    ["LOCATION",           "TORONTO · ON", ""],
+    ["STATUS",             "OPEN",       "pos"]
+  ],
+
+  "projects": [
+    {
+      "id": "PRJ-01",
+      "category": "DECISION ENGINEERING · FEATURED",
+      "name": "Lodestar",
+      "italicTail": "star",
+      "tags": ["AHP", "TOPSIS", "Monte Carlo", "Python"],
+      "description": "Personal decision-engineering system. Stacks **AHP + TOPSIS + Monte Carlo simulation** to weight, rank, and stress-test life and work decisions. The data-person's antidote to gut-feel — *try the live engine below ↓*",
+      "stats": [
+        { "k": "Methods",     "v": "3" },
+        { "k": "Status",      "v": "WIP",   "vAccent": true },
+        { "k": "Simulations", "v": "10k+" },
+        { "k": "Live demo",   "v": "↓",     "vAccent": true }
+      ],
+      "href": "#mc",
+      "arrow": "↓"
+    },
+    {
+      "id": "PRJ-02",
+      "category": "FINANCIAL DATA · CLI",
+      "name": "Stonks.ca",
+      "italicTail": ".ca",
+      "tags": ["Python", "yfinance", "Pandas", "Rich"],
+      "description": "Real-time TSX equity & ETF screener for the terminal. Detects **P/E anomalies, volume spikes, 52-week breakouts**, and momentum — outputs plain-English signals and a CSV trade log. Built around a configurable signal-logic table.",
+      "stats": [
+        { "k": "Tickers / run", "v": "20+", "vAccent": true },
+        { "k": "Signal rules",  "v": "10" },
+        { "k": "API key",       "v": "none", "vAccent": true },
+        { "k": "Export",        "v": "CSV" }
+      ],
+      "href": "https://github.com/ShivamBhosale/Stonks.ca",
+      "arrow": "↗"
+    },
+    {
+      "id": "PRJ-03",
+      "category": "GENAI · RELIABILITY",
+      "name": "Honey Badger AI",
+      "italicTail": "Badger AI",
+      "tags": ["GenAI", "Ollama", "Streamlit", "Local"],
+      "description": "Multi-stage validation pipeline for LLM output. Every response is **generated → critiqued → revised → rule-evaluated → confidence-scored → guardrailed** before reaching the user. Fully local via Ollama, no API key.",
+      "stats": [
+        { "k": "Stages",        "v": "6" },
+        { "k": "Inference",     "v": "local", "vAccent": true },
+        { "k": "Cost / query",  "v": "$0.00" },
+        { "k": "Guardrails",    "v": "✓" }
+      ],
+      "href": "https://github.com/ShivamBhosale/Honey-Badger---AI-Assistant",
+      "arrow": "↗"
+    },
+    {
+      "id": "PRJ-04",
+      "category": "LLM · MARKET INTEL",
+      "name": "Bloomberg Replica",
+      "italicTail": "Replica",
+      "tags": ["Claude API", "Yahoo Finance", "ECB FX", "Python"],
+      "description": "AI-powered market dashboard. Claude reads equities, FX, and macro from free APIs and writes an **institutional-grade daily brief** — for retail users, at zero subscription cost.",
+      "stats": [
+        { "k": "Subscription", "v": "$0" },
+        { "k": "Sources",      "v": "3+", "vAccent": true },
+        { "k": "Daily brief",  "v": "auto", "vAccent": true },
+        { "k": "Tool-use",     "v": "✓" }
+      ],
+      "href": "https://github.com/ShivamBhosale",
+      "arrow": "↗"
+    },
+    {
+      "id": "PRJ-05",
+      "category": "DEEP LEARNING · CV",
+      "name": "Agri-Optima",
+      "italicTail": "Optima",
+      "tags": ["TensorFlow", "Keras", "Django", "CNN"],
+      "description": "Django + CNN platform for farmers: **crop yield prediction**, plant-leaf disease detection, soil analysis, and a live agriculture news feed. Built during graduate research with Agriculture & Agri-Food Canada.",
+      "stats": [
+        { "k": "Images trained", "v": "35k",  "vAccent": true },
+        { "k": "Accuracy",       "v": "95%",  "vAccent": true },
+        { "k": "Δ vs baseline",  "v": "+15%" },
+        { "k": "Partner",        "v": "AAFC" }
+      ],
+      "href": "https://github.com/ShivamBhosale/Agri-Optima",
+      "arrow": "↗"
+    }
+  ],
+
+  "monteCarlo": {
+    "title": "Run a *Monte Carlo*. Right now.",
+    "tag": "LIVE · INTERACTIVE",
+    "description": "A scaled-down Lodestar engine. Tune the three weights below, hit RUN, and watch **10,000 simulated decision trials** draw a distribution in real time. This is what decision engineering actually looks like before the slide deck cleans it up.",
+    "sliders": [
+      { "id": "w1", "label": "w₁ · Salary",          "default": 50 },
+      { "id": "w2", "label": "w₂ · Growth",          "default": 70 },
+      { "id": "w3", "label": "w₃ · Risk tolerance",  "default": 35 }
+    ],
+    "buttonLabel": "▶ RUN  10 000 TRIALS",
+    "trials": 10000,
+    "bins": 40,
+    "verdicts": [
+      { "min": 65, "txt": "GO",      "cls": "go" },
+      { "min": 50, "txt": "LEAN GO", "cls": "go" },
+      { "min": 40, "txt": "HOLD",    "cls": "hold" },
+      { "min": 0,  "txt": "PASS",    "cls": "no" }
+    ]
+  },
+
+  "experience": {
+    "gantt": {
+      "yearTicks": ["2022", "2023", "2024", "2025", "2026"],
+      "rows": [
+        { "label": "Data Analyst / AI Engineer", "org": "MJR Capital · Mississauga", "from": 0.64, "to": 1.00, "style": "accent",  "barText": "2025 — Present" },
+        { "label": "AI Engineer · Grad Researcher", "org": "U. of Windsor × AAFC", "from": 0.28, "to": 0.44, "style": "ink",     "barText": "2023 — 24" },
+        { "label": "M.Applied Computing", "org": "U. of Windsor", "from": 0.04, "to": 0.44, "style": "outline", "barText": "2022 — 24 · MAC" },
+        { "label": "Open-source · side projects", "org": "Stonks · Honey Badger · Lodestar · 100+ repos", "from": 0.00, "to": 1.00, "style": "dashed", "barText": "CONTINUOUS" }
+      ]
+    },
+    "details": [
+      {
+        "when": { "range": "2025 — Present", "city": "Mississauga, ON" },
+        "role": "*Data Analyst* / AI Engineer",
+        "org":  "MJR Capital Services",
+        "copy": "Owning end-to-end financial & operational analytics. **Python + SQL ETL on AWS**, **Power BI dashboards with DAX**, and **Scikit-learn models** for classification, regression, and anomaly detection — wired back into dashboards as live KPIs. Built monitoring frameworks (precision, recall, RMSE, AUC) with stakeholder-facing reports.",
+        "metrics": [
+          { "k": "Reporting time", "v": "−40%", "vAccent": true },
+          { "k": "ML models",      "v": "PROD" },
+          { "k": "Pipelines",      "v": "ETL" },
+          { "k": "Stack",          "v": "AWS" }
+        ]
+      },
+      {
+        "when": { "range": "2023 — 2024", "city": "Windsor, ON" },
+        "role": "*AI Engineer* · Grad Researcher",
+        "org":  "U. Windsor × AAFC",
+        "copy": "Federally partnered research with Agriculture & Agri-Food Canada. Trained **CNNs on 35,000+ annotated images** for plant disease detection, deployed real-time inference via a **Django app** with role-based access, and authored explainability reports for regulatory audiences.",
+        "metrics": [
+          { "k": "Accuracy",  "v": "95%",  "vAccent": true },
+          { "k": "Δ baseline", "v": "+15%" },
+          { "k": "Images",    "v": "35k" },
+          { "k": "Deploy",    "v": "Django" }
+        ]
+      }
+    ]
+  },
+
+  "capabilities": {
+    "stackedBar": [
+      { "key": "A", "label": "Analytics & SQL",     "pct": 32, "color": "s1" },
+      { "key": "B", "label": "ML / Deep Learning",  "pct": 24, "color": "s2" },
+      { "key": "C", "label": "LLMs · Agentic AI",   "pct": 20, "color": "s3" },
+      { "key": "D", "label": "BI · Reporting",      "pct": 14, "color": "s4" },
+      { "key": "E", "label": "Cloud · MLOps",       "pct": 10, "color": "s5" }
+    ],
+    "cards": [
+      {
+        "name": "Analytics & SQL", "ix": "A.01",
+        "items": [
+          { "text": "Python — Pandas, NumPy", "lead": true },
+          { "text": "SQL · advanced joins, CTEs, window fns", "lead": true },
+          { "text": "PySpark" },
+          { "text": "EDA · feature engineering" },
+          { "text": "R · statistical modelling" }
+        ]
+      },
+      {
+        "name": "ML & Deep Learning", "ix": "B.02",
+        "items": [
+          { "text": "Scikit-learn — classification, regression", "lead": true },
+          { "text": "TensorFlow · PyTorch · Keras", "lead": true },
+          { "text": "CNNs · anomaly detection" },
+          { "text": "Hyperparameter tuning" },
+          { "text": "Eval — precision, recall, AUC, RMSE" }
+        ]
+      },
+      {
+        "name": "LLMs & Agentic AI", "ix": "C.03",
+        "items": [
+          { "text": "Claude API · OpenAI · Gemini", "lead": true },
+          { "text": "RAG pipelines · FAISS · LangChain", "lead": true },
+          { "text": "LangGraph · CrewAI" },
+          { "text": "MCP · A2A protocols" },
+          { "text": "Local inference · Ollama" }
+        ]
+      },
+      {
+        "name": "BI & Reporting", "ix": "D.04",
+        "items": [
+          { "text": "Power BI · DAX", "lead": true },
+          { "text": "Executive dashboards", "lead": true },
+          { "text": "Power Automate" },
+          { "text": "Tableau" },
+          { "text": "Excel — pivot forensics" }
+        ]
+      },
+      {
+        "name": "Databases", "ix": "E.05",
+        "items": [
+          { "text": "PostgreSQL · SQL Server", "lead": true },
+          { "text": "MySQL" },
+          { "text": "MongoDB" },
+          { "text": "Query optimization" },
+          { "text": "Schema design" }
+        ]
+      },
+      {
+        "name": "Cloud & MLOps", "ix": "F.06",
+        "items": [
+          { "text": "AWS — S3, EC2", "lead": true },
+          { "text": "Docker · CI/CD", "lead": true },
+          { "text": "Azure · GCP" },
+          { "text": "Model lifecycle" },
+          { "text": "Pipeline automation" }
+        ]
+      },
+      {
+        "name": "AI App Dev", "ix": "G.07",
+        "items": [
+          { "text": "Django · FastAPI · Flask", "lead": true },
+          { "text": "Real-time inference endpoints", "lead": true },
+          { "text": "Streamlit" },
+          { "text": "REST APIs" },
+          { "text": "Role-based access" }
+        ]
+      },
+      {
+        "name": "Currently exploring", "ix": "H.08",
+        "items": [
+          { "text": "Multi-agent orchestration", "lead": true },
+          { "text": "Long-context RAG · eval harnesses", "lead": true },
+          { "text": "dbt · modern data stack" },
+          { "text": "Decision engineering — AHP, TOPSIS" },
+          { "text": "LLM-as-judge" }
+        ]
+      }
+    ]
+  },
+
+  "pullQuote": {
+    "text": "Good *decisions* start with clean *data*.",
+    "attribution": { "label": "Personal axiom", "name": "SB · 2026" }
+  },
+
+  "contact": {
+    "headline": "Hiring an analyst who thinks like an *engineer*? Let's talk.",
+    "replyTime": "same day",
+    "channels": [
+      { "id": "CH-01", "label": "Email",    "value": "shivambhosale909\n@gmail.com", "sub": "primary · always read",   "href": "mailto:shivambhosale909@gmail.com" },
+      { "id": "CH-02", "label": "LinkedIn", "value": "/in/\nshivambhosale",         "sub": "recruiter DMs open",       "href": "https://www.linkedin.com/in/shivambhosale" },
+      { "id": "CH-03", "label": "GitHub",   "value": "@ShivamBhosale",              "sub": "124 public repos",         "href": "https://github.com/ShivamBhosale" },
+      { "id": "CH-04", "label": "Location", "value": "Toronto\nOntario, CA",        "sub": "hybrid · remote",          "href": null }
+    ]
+  },
+
+  "footer": {
+    "left": "© 2026 Shivam Bhosale · All data self-reported"
+  }
+}

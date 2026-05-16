@@ -1,0 +1,100 @@
+{
+  "$schema": "design-tokens-v1",
+  "name": "Shivam Bhosale Portfolio — Data Brief",
+  "color": {
+    "light": {
+      "paper":   "#f1ece2",
+      "paper-2": "#e7e1d4",
+      "paper-3": "#dcd5c5",
+      "ink":     "#141414",
+      "ink-2":   "#2c2c2c",
+      "muted":   "#6b6760",
+      "muted-2": "#9c968b",
+      "rule":    "#14141422",
+      "rule-2":  "#14141411",
+      "accent":  "oklch(60% 0.14 65)",
+      "accent-soft": "oklch(60% 0.14 65 / 0.14)",
+      "pos":     "#246f43",
+      "neg":     "oklch(60% 0.14 65)"
+    },
+    "dark": {
+      "paper":   "#0f0f10",
+      "paper-2": "#17171a",
+      "paper-3": "#1f1f23",
+      "ink":     "#efeae0",
+      "ink-2":   "#d5cfc1",
+      "muted":   "#8b867c",
+      "muted-2": "#5a554d",
+      "rule":    "#ffffff1f",
+      "rule-2":  "#ffffff10",
+      "accent":  "oklch(74% 0.14 65)",
+      "accent-soft": "oklch(74% 0.14 65 / 0.18)",
+      "pos":     "#5ec288",
+      "neg":     "oklch(74% 0.14 65)"
+    }
+  },
+  "type": {
+    "family": {
+      "serif": "'Instrument Serif', 'Times New Roman', serif",
+      "sans":  "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
+      "mono":  "'JetBrains Mono', ui-monospace, monospace"
+    },
+    "imports": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    ],
+    "scale": {
+      "display-xl":   { "size": "clamp(54px, 8.8vw, 132px)", "family": "serif", "line": 0.92, "letter": "-0.035em", "weight": 400 },
+      "display-lg":   { "size": "clamp(46px, 7vw, 96px)",    "family": "serif", "line": 0.98, "letter": "-0.03em",  "weight": 400 },
+      "display-md":   { "size": "clamp(34px, 4.6vw, 52px)",  "family": "serif", "line": 1.0,  "letter": "-0.02em",  "weight": 400 },
+      "display-sm":   { "size": "30px",                      "family": "serif", "line": 1.04, "letter": "-0.015em", "weight": 400 },
+      "headline":     { "size": "24px",                      "family": "serif", "line": 1.2,  "letter": "-0.01em",  "weight": 400 },
+      "title":        { "size": "22px",                      "family": "serif", "line": 1.15, "letter": "-0.01em",  "weight": 400 },
+      "subtitle":     { "size": "20px",                      "family": "serif", "line": 1.2,  "letter": "-0.01em",  "weight": 400 },
+      "body":         { "size": "14.5px",                    "family": "sans",  "line": 1.55, "weight": 400 },
+      "body-lg":      { "size": "16px",                      "family": "sans",  "line": 1.65, "weight": 400 },
+      "mono-label":   { "size": "10.5px",                    "family": "mono",  "letter": "0.12em", "transform": "uppercase", "weight": 500 },
+      "mono-meta":    { "size": "11px",                      "family": "mono",  "letter": "0.08em", "transform": "uppercase", "weight": 400 },
+      "mono-tiny":    { "size": "9.5px",                     "family": "mono",  "letter": "0.08em", "transform": "uppercase", "weight": 400 }
+    }
+  },
+  "space": {
+    "section-y":      "88px",
+    "section-y-tight":"64px",
+    "gutter":         "clamp(20px, 4vw, 56px)",
+    "max-width":      "1320px",
+    "gap-xs":         "4px",
+    "gap-sm":         "8px",
+    "gap-md":         "16px",
+    "gap-lg":         "24px",
+    "gap-xl":         "40px",
+    "gap-2xl":        "64px"
+  },
+  "radius": {
+    "none": "0",
+    "sm":   "2px",
+    "md":   "3px",
+    "pill": "999px"
+  },
+  "border": {
+    "rule":    "1px solid var(--rule)",
+    "rule-2":  "1px solid var(--rule-2)",
+    "dashed":  "1px dashed var(--rule-2)",
+    "ink":     "1px solid var(--ink)",
+    "ink-thick": "2px solid var(--ink)"
+  },
+  "shadow": {
+    "tweaks-panel": "0 16px 40px rgba(0,0,0,.18)"
+  },
+  "motion": {
+    "fast":   "150ms ease",
+    "base":   "200ms ease",
+    "slow":   "300ms ease",
+    "reveal": "800ms ease",
+    "marquee":"60s linear infinite"
+  },
+  "breakpoint": {
+    "md": "1100px",
+    "sm": "900px",
+    "xs": "760px"
+  }
+}
