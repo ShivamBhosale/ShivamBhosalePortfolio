@@ -162,6 +162,7 @@
       "yearTicks": ["2022", "2023", "2024", "2025", "2026"],
       "rows": [
         { "label": "Data Analyst / AI Engineer", "org": "MJR Capital · Mississauga", "from": 0.64, "to": 1.00, "style": "accent",  "barText": "2025 — Present" },
+        { "label": "Data Analyst", "org": "Sonia Fisheries · Remote", "from": 0.36, "to": 0.62, "style": "ink", "barText": "2024 — 25" },
         { "label": "AI Engineer · Grad Researcher", "org": "U. of Windsor × AAFC", "from": 0.28, "to": 0.44, "style": "ink",     "barText": "2023 — 24" },
         { "label": "M.Applied Computing", "org": "U. of Windsor", "from": 0.04, "to": 0.44, "style": "outline", "barText": "2022 — 24 · MAC" },
         { "label": "Open-source · side projects", "org": "Stonks · Honey Badger · Lodestar · 100+ repos", "from": 0.00, "to": 1.00, "style": "dashed", "barText": "CONTINUOUS" }
@@ -178,6 +179,18 @@
           { "k": "ML models",      "v": "PROD" },
           { "k": "Pipelines",      "v": "ETL" },
           { "k": "Stack",          "v": "AWS" }
+        ]
+      },
+      {
+        "when": { "range": "2024 — 2025", "city": "Taloja, IN · Remote" },
+        "role": "*Data Analyst*",
+        "org":  "Sonia Fisheries Pvt. Ltd.",
+        "copy": "Analytics for a seafood export operation — production, inventory, sales & export data. Built **interactive Power BI dashboards** and **automated SQL + Excel reporting**, cleaned and validated cross-department data, and ran **trend analysis & forecasting** for inventory planning and export operations.",
+        "metrics": [
+          { "k": "Reports",    "v": "AUTO", "vAccent": true },
+          { "k": "Dashboards", "v": "PBI" },
+          { "k": "Domain",     "v": "EXPORT" },
+          { "k": "Stack",      "v": "SQL" }
         ]
       },
       {
